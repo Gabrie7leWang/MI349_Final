@@ -1,0 +1,28 @@
+html {
+    background: #193968;
+}
+body {
+ font-family: Comic Sans MS, Comic Sans, cursive;
+ margin: 80px;
+ padding: 40px;
+ color: #9cbedd;
+ border-top: 10px solid #242424;
+ text-align: left
+}
+.sticky, .position-demo {
+    color: aquamarine;
+    padding: 30px;}
+    
+
+.sticky {
+    background-color: rgb(73, 110, 102);
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 25px;
+}
+.position-demo{
+    background-color: blue;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
